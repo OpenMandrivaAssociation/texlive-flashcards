@@ -1,3 +1,9 @@
+# revision 19667
+# category Package
+# catalog-ctan /macros/latex/contrib/flashcards
+# catalog-date 2010-08-06 13:03:06 +0200
+# catalog-license gpl
+# catalog-version 1.0.1
 Name:		texlive-flashcards
 Version:	1.0.1
 Release:	1
@@ -50,6 +56,7 @@ depending on the nature of the information they contain.
 #- source
 %doc %{_texmfdistdir}/source/latex/flashcards/flashcards.dtx
 %doc %{_texmfdistdir}/source/latex/flashcards/flashcards.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +67,5 @@ depending on the nature of the information they contain.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
