@@ -6,7 +6,7 @@
 # catalog-version 1.0.1
 Name:		texlive-flashcards
 Version:	1.0.1
-Release:	7
+Release:	8
 Summary:	A class for typesetting flashcards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/flashcards
