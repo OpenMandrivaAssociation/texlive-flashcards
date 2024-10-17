@@ -3,7 +3,7 @@ Version:	62104
 Release:	2
 Summary:	A class for typesetting flashcards
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/flashcards
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/flashcards
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/flashcards.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/flashcards.doc.r%{version}.tar.xz
